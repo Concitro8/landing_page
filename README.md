@@ -1,1 +1,1 @@
-teste de git push e etc denovo
+Esse projeto do The Odin Project me ajuda a desenvolver habilidades com o Flexbox
