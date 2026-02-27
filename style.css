@@ -11,6 +11,7 @@ ul {
 
 #b {
     display: flex;
+    flex-direction: column;
 }
 
 #c {
@@ -19,10 +20,15 @@ ul {
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
+    padding: 200px;
+    flex-direction: column;
 }
 
 #d {
     display: flex;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
 }
 
 #footer {
@@ -46,12 +52,23 @@ ul {
 .call-to-action{
     background-color: #3882F6;
     margin: 36px;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
 }
 
 .titulo-random {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .awesome {
@@ -105,4 +122,29 @@ ul {
 .imagem {
     margin-right: 160px ;
     margin-top: 100px;
+}
+
+.imagens-plural {
+    display: flex;
+    gap: 70px;
+    justify-content: space-evenly;
+    margin-left: 500px;
+    width: 20px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.inspiring-quote {
+   display: flex;
+   flex-wrap: wrap;
+   width: 720px;
+   margin-left: 350px;
+}
+
+.assinatura {
+   display: flex;
+   align-items: end;
+   justify-content: center;
+   margin-left: 300px;
+   margin-top: 20px;
 }
